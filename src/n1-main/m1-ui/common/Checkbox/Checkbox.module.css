@@ -1,0 +1,29 @@
+.checkbox {
+    appearance: none; /*изменяет внешний вид интерфейса, но сохранет его функции*/
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    outline: #1b1d23 solid 1px;
+    border-radius: 3px;
+}
+.checkbox:checked{
+    appearance: none;
+    background-image: url('check.png');
+    background-color: #f1f3f5;
+    background-size: contain;
+
+}
+.checkbox:focus {
+    outline: #1b1d23 solid 1px;
+}
+.spanClassName {
+
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}

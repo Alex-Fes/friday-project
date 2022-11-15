@@ -1,0 +1,18 @@
+@import "src/n1-main/m1-ui/common/styles/sass/varialebles";
+
+
+@mixin text($fontFamily, $fontSize, $fontWeight, $lineHeight, $letterSpacing, $color) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+  color: $color;
+}
+
+@mixin flexMain($display, $flexDirection, $justifyContent, $alignItems) {
+  display: $display;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
